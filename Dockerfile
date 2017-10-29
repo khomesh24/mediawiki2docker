@@ -14,4 +14,5 @@ RUN apt-get update \
 	apt-get upgrade \
 	service apache2 start \
 	service mysql start \
-	mysql -u root -pAdmin2015 < /wiki/sql_input\
+	mysqladmin -u root password "root123" \ 
+	
